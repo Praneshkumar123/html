@@ -1,0 +1,183 @@
+   HTML-hypertext markup language
+      it has collections of pre-defined tag. that use to create basic structure of web page
+      the html tags use to collect input from use to display output to user via web page
+      the Html tags has limited property and value. 
+      due to this limitation CSS required
+
+     How HTML & CSS work ?
+     Responsive webpage = HTML (tags) + CSS (property & values)
+     Tag?
+      <> - open tag
+      </> - close tag
+     Type of tags in html ?
+     1. input tags - It use to collect many type of input from user
+     2. Output tags - It use to display different type of output to use via browser
+
+     Structure of html tags ?
+     1. Dependent tag - those tags that open seperate and close seperate.
+      Example:-
+              <html> </html>
+              <body> </body>
+     2. Independent tag - those tags that has only open.
+      Example:-
+              <img>
+              <br>
+              <hr>
+     React + Angular will not support independent tag.
+
+     3. self closing tag - those html tags, that open and close together.
+        Example:-
+             <img/>
+             <br/>
+             <hr/>
+     Behaviour of html tags ?
+     1. block level tag -> those html tags , that print statement in newline.
+     
+     2. inline tag -> those html tag,that print statement in same line (side by side)
+     -----------------------------------------------------------------------------
+     => Tags
+       <> open , </> close
+
+     => Type of tags 
+      1. input tag - it collect input from user
+      2. output tag - it display output to user 
+
+      => Structure of tags 
+      1. dependent -<h1></h1> - open close seperate
+      2. independent - <br> - only open
+      3. self closing - </br> - open,close
+
+      => Behaviour of tag
+      1. block level tag - it print in new line
+      2. inline tag - it print in same line
+      ================================================================================
+      The valid extension of html document 
+       => -html-best for digital marketing
+       => -html
+     ------------------------------------------------------------------------------------
+     Structure of html document ?
+       html start to end called document.
+       html
+           => head
+             marketing and analytics section(for digital marketing)
+             libary section (CSS,javascript,other)
+
+           => body
+                 => tags for input and output
+--------------------------------------------------------------------------------------------
+     <!DOCTYPE html>
+         =>it introduce current page to browser, saying that there will be HTML 5 tag also.
+           be ready to excute it.
+
+        =>it also re-present that current document is html document
+-----------------------------------------------------------------------------------------------
+  h1 to h6 - it is called heaing tag. it create head line of webpage.
+             use h1 only 1 time in each page.
+------------------------------------------------------------------------------------
+ Type of list in html ?
+    1.UL - unorder list
+        type
+           1. disc
+           2. square
+           3. cricle
+           4. none 
+
+   2. OL - order list 
+        type
+           1. type="1"
+           2. type="A"
+           3. type="a"
+           4. type="I"
+           5. type="i"
+
+  3. DL - definition list 
+        dt - definition title  - it use to display headline of Content
+        dd - definition details - it use to display about the contents
+------------------------------------------------------------------------------
+  DETAILS & SUMMARY
+=> details & summary - use to toggle the text for read more and read less.
+------------------------------------------------------------------------------
+
+ => Table in html
+    1. Frist method of table - not supported with angular and react
+       =>table 
+           ->caption
+           ->tr - table row 
+                -> th - table heading
+                -> td - table data
+
+    2. Second method of table - supported with angular and react
+      =>table
+        ->thead - it cover upper section of table
+              ->tr 
+                 ->th
+
+        ->tbody - it cover middle/ data part
+             ->tr
+                 ->td
+
+       ->tfoot - it cover bottom of table
+              ->tr
+                 ->th
+
+  => property in table,tr, th.], td, thead, tbody, tfoot
+          ->align - left, center, right
+          ->border -
+          ->bordercolor -
+          ->cellpadding - it apply space inside th & td
+          ->cellspacing - it apply space outside th & td
+          
+    ->table1.html
+       ->colspan - it use to combine space of 2 0r more columns th, td ( it combine left to right)
+       ->rowspan - it combine space of 2 or more tr (top of bottom)
+    ->table3.html
+--------------------------------------------------------------------------------------------
+   input tags
+       ->text    ]
+       ->number  ] - single line 
+       ->email   ]
+       ->password ]
+       ->date     ] - slect
+       ->file     ]
+       ->select   ]
+       ->textarea ] - multiple
+       ->radio    ] - user can only select one
+       ->checkbox ] - user can select one or more
+       ->button
+               ->submit
+               ->reset 
+               ->button - need javascript
+
+   property in input tags / element 
+   ->placeholder - it is for input guidance
+   ->maxlength - it set max inout limit in "text, password, email, textarea".
+   ->size - it resize width of "text, password, email".
+   -> name - it use to  capture value given by user in html 
+   ->readonly - it will make input element as readonly but value can pass to backend
+   ->disabled -it will make input element as readonly but value can not pass to backend
+   ->value -it use to display default value in input element 
+   ->tabindex -it use to set sequence of cursor 
+   ->required -it make input element as mandatory to fill
+   ->selected -it make option as default option in select   
+   ->checked -it make checkbox, radio default checked
+   
+   ->form tag
+   ->it is parent container of all input 
+   ->the property are 
+        1. action- it use to set backend url where the form data get submitted
+        2. method- it define type of communication as secure or un-secure 
+           a. get - it is un-secure because it pass from browser url.
+           b. post - it is secure, data will not be visible anywhere
+           c. patch - patch upadate on changes
+           d. put - put upadte changes and non changes values
+           e. delete - it send request to delete record from server
+
+        3. enctype
+           ->it use to encode any type attachment
+
+---------------------------------------------------------------------------------------------------
+    Type of target in html herf?
+      target="_self"  -  it open next page in same tab.
+      target="_blank" - it open next page in new tab on every click.
+      target="_new"   - it open next page in new tab but only at first click.
+----------------------------------------------------------------------------------------
